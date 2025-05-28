@@ -1,8 +1,11 @@
 package devx.arjun.PaymentService.model;
 
+import jakarta.persistence.Entity;
+
 import java.time.LocalDateTime;
 
-public class Payment {
+@Entity
+public class Payment extends BaseModel {
     private String orderId;
     private double amount;
     private String paymentRefNo;

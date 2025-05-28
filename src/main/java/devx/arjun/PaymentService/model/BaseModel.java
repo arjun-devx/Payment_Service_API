@@ -16,14 +16,6 @@ public class BaseModel {
     private String createBy;
     private String updatedBy;
 
-    public BaseModel(int id, LocalDateTime createdAt, LocalDateTime updatedAt, String createBy, String updatedBy) {
-        this.id = id;
-        this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
-        this.createBy = createBy;
-        this.updatedBy = updatedBy;
-    }
-
     public int getId() {
         return id;
     }
